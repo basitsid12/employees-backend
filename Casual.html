@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bootstrap Testing</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap Css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!-- Header Css-->
+<link type="text/css" rel="stylesheet" href="CUSTOM CSS/style.css"/>
+<!-- Jquery-->	
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<!-- Bootstrap Js-->	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+	
+	
+	<!--grid css-->
+	<link rel="stylesheet" href="CUSTOM CSS/grid.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--footer-->
+		    <link rel="stylesheet" href="CUSTOM CSS/footer css.css">
+
+</head>
+
+<body>
+	<!-- 2nd Nav Bar-->
+	<nav class="navbar navbar-expand-lg navbar-dark nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="home.html">GRACIOUS GARMENTS</a>
+    <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse menu"  id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MEN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Casual.html">Casual</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Formal.html">Formal</a></li>
+			<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Kurtas.html">Kurats</a></li>  
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            WOMEN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<li><a class="dropdown-item" href="Women top col.html">Women's(Top Collection)</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="women unstitched.html">Women's(Unstitched Collection)</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="women formal.html">Women's(Formal Collection)</a></li>  
+          </ul>
+        		  <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="Kids.html">KIDS</a>
+        </li> 
+		 
+		  <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="our team.html">ABOUT US</a>
+        </li> 
+		  
+		<li class="nav-item">
+      		 <a class="nav-link" href="cart.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Cart">
+<i class="fa fa-shopping-cart"  font-size="30px" height="30px"></i></a>
+        </li>
+		<li class="nav-item">
+			<a class="nav-link" href="products-comparison-table/compare table.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Compare list" ><i class="fa fa-random"></i></a>
+        </li>
+		  
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Wish List"><i class="fa fa-heart" ></i></a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="sign up.html"
+			 data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sign up"><i class="fa fa-user-circle"></i></a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Search"><i class="fa fa-search"></i></a>
+        </li>
+      </ul>
+    </div>
+	  
+  </div>
+</nav>
+<!--sign-->
+	<!--breadcrums-->
+	<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Men's(Casual)</li>
+  </ol>
+</nav>
+			<!--banner img-->
+		<img class="col-12 img-fluid" src="images/21.5.5_CatBanner_CasualEditFR_MOBDSK.jpg"/>
+
+	<div class="content">
+		<div class="contact-sec"><h3>Men's(Casual)</h3></div>
+    <div class="border"></div></div>
+<!--product card --->
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/orange-green_casual_shirt_cm-yd-2865_cs_1_.jpg">
+                        <img class="pic-2" src="images casual/orange-green_casual_shirt_cm-yd-2865_cs_2_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Orange-Green Casual Shirt CM-YD-2865 CS.html">Orange-Green Casual Shirt CM-YD-2865 CS</a></h3>
+                    <div class="price">RS 2,695</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/white_casual_shirt_cm-pd-455_cs.jpg">
+                        <img class="pic-2" src="images casual/white_casual_shirt_cm-pd-455_cs_3_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/White Casual Shirt CM-PD-455 CS.html">White Casual Shirt CM-PD-455 CS</a></h3>
+                    <div class="price discount"><span>RS 2,495</span>RS 1,248</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/00swic-cn039-01_3_.jpg">
+                        <img class="pic-2" src="images casual/00swic-cn039-01_4_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Tepphar-X Pantaloni.html">Tepphar-X Pantaloni</a></h3>
+                    <div class="price discount"><span>RS2,500</span> RS1,500</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/87080554_99.jpg">
+                        <img class="pic-2" src="images casual/87080554_99_d1.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Chino Bermuda Shorts.html">Chino Bermuda Shorts</a></h3>
+                    <div class="price discount"><span>RS8,200</span>RS3,000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 2nd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/lime_basic_polo_pkp-sb-95_2_.jpg">
+                        <img class="pic-2" src="images casual/lime_basic_polo_pkp-sb-95_3_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Lime Basic Polo PKP-SB-95.html">Lime Basic Polo PKP-SB-95</a></h3>
+                    <div class="price">RS1,600</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/87040509_52.jpg">
+                        <img class="pic-2" src="images casual/87040509_52_d2.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Regular Fit Striped Cotton Shirt.html">Regular Fit Striped Cotton Shirt</a></h3>
+                    <div class="price discount"><span>RS2,000</span> RS1,500</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/762791_1.jpg">
+                        <img class="pic-2" src="images casual/762791_3.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Jeans With Stretch.html">Jeans With Stretch</a></h3>
+                    <div class="price discount"><span>RS9,000</span> RS5,000</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/752322_1.jpg">
+                        <img class="pic-2" src="images casual/752322_3.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Stretch Chino Shorts.html">Stretch Chino Shorts</a></h3>
+                    <div class="price discount"><span>RS9,256</span> RS6,490</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!-- 3rd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/00syxi-0pazc-900_1_.jpg">
+                        <img class="pic-2" src="images casual/00syxi-0pazc-900_3_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Umlb-Peter-Bg Pantaloni.html">Umlb-Peter-Bg Pantaloni</a></h3>
+                    <div class="price">RS12,999</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/084ai-02_1_.jpg">
+                        <img class="pic-2" src="images casual/084ai-02_6_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/Thommer Cb-Sp-Ne Sweat Jeans.html">Thommer Cb-Sp-Ne Sweat Jeans</a></h3>
+                    <div class="price discount"><span>RS10,000</span> RS4,000</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/00sw7q-0091a-5ik_1_.jpg">
+                        <img class="pic-2" src="images casual/00sw7q-0091a-5ik_2_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/T-Cherubik-New Maglietta.html">T-Cherubik-New Maglietta</a></h3>
+                    <div class="price discount"><span>RS5,450</span>RS3,200</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images casual/00sgns-0eavg-9xx_1_.jpg">
+                        <img class="pic-2" src="images casual/00sgns-0eavg-9xx_2_.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Casual/S-Plan-B Camicia.html">S-Plan-B Camicia</a></h3>
+                    <div class="price discount"><span>RS15,000</span> Rs8,000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer-->
+
+	 <footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Our Store is a multiple brand store where you can buy quality stuff in resonable price.</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+923150205721</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>sahmeddayo@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+   <div class="topic">Quick Access</div>
+       <div><a href="Casual.html">Men Casual</a></div>
+       <div><a href="Formal.html">Men Formal</a></div>
+       <div><a href="Kids.html">Kids</a></div>
+       <div><a href="women formal.html">Women Foraml</a></div>
+       <div><a href="Women top col.html">Women Top Collection</a></div>
+		 <div><a href="contact us.html">Contact US</a></div>
+		<div><a href="our team.html">About Us</a></div>
+
+
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="home.html"><h2>Gracious Garments</h2></a>
+           
+         </div>
+       </form>
+     </div>
+   </div>
+ </footer>
+
+</body>
+</html>

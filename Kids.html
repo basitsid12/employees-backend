@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap Testing</title>
+	<!-- Bootstrap Css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!-- Header Css-->
+<link type="text/css" rel="stylesheet" href="CUSTOM CSS/style.css"/>
+<!-- Jquery-->	
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<!-- Bootstrap Js-->	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+	
+	
+	<!--grid css-->
+	<link rel="stylesheet" href="CUSTOM CSS/grid.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--footer-->
+		    <link rel="stylesheet" href="CUSTOM CSS/footer css.css">
+
+</head>
+
+<body>
+	<!-- 2nd Nav Bar-->
+	<nav class="navbar navbar-expand-lg navbar-dark nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="home.html">GRACIOUS GARMENTS</a>
+    <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse menu"  id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MEN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Casual.html">Casual</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Formal.html">Formal</a></li>
+			<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Kurtas.html">Kurats</a></li>  
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            WOMEN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<li><a class="dropdown-item" href="Women top col.html">Women's(Top Collection)</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="women unstitched.html">Women's(Unstitched Collection)</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="women formal.html">Women's(Formal Collection)</a></li>  
+          </ul>
+        		  <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="Kids.html">KIDS</a>
+        </li> 
+		 
+		  <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="our team.html">ABOUT US</a>
+        </li> 
+		  
+		<li class="nav-item">
+      		 <a class="nav-link" href="cart.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Cart">
+<i class="fa fa-shopping-cart"  font-size="30px" height="30px"></i></a>
+        </li>
+		<li class="nav-item">
+			<a class="nav-link" href="products-comparison-table/compare table.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Compare list" ><i class="fa fa-random"></i></a>
+        </li>
+		  
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Wish List"><i class="fa fa-heart" ></i></a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="sign up.html"
+			 data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sign up"><i class="fa fa-user-circle"></i></a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Search"><i class="fa fa-search"></i></a>
+        </li>
+      </ul>
+    </div>
+	  
+  </div>
+</nav>
+<!--sign-->
+	<!--breadcrums-->
+	<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">KIDS</li>
+  </ol>
+</nav>
+		<!--banner image-->
+		<img class="col-12 img-fluid" src="images/11152.JPG"/>
+
+	<div class="content">
+		<div class="contact-sec"><h3>KIDS</h3></div>
+    <div class="border"></div></div>
+		
+<!--product card --->
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBL-0008-Maroon-Rs-5190-01_787ad75a-290d-4ca1-acf5-38a0ce69f206_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBL-0008-Maroon-Rs-5190-02_9675269a-2414-488c-8c86-1d9f1b2bc8e1_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Blazer In Maroon.html">Boys Blazer In Maroon</a></h3>
+                    <div class="price">RS 2,400</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBA-0198-Red-Rs-1260-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBA-0198-Red-Rs-1260-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Full Sleeves T-Shirt In Red.html">Boys Full Sleeves T-Shirt In Red</a></h3>
+                    <div class="price discount"><span>RS1,700</span>RS1,000</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBA-0172-Navy-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBA-0172-Navy-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/T-Shirt In Navy KBA-0172.html">T-Shirt In Navy KBA-0172</a></h3>
+                    <div class="price discount"><span>RS4,600</span> RS3,400</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBA-0251-Grey-Rs-990-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBA-0251-Grey-Rs-990-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Full Sleeves T-Shirt In Grey.html">Boys Full Sleeves T-Shirt In Grey</a></h3>
+                    <div class="price discount"><span>RS2,456</span>RS1,098</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 2nd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBKS-0069-Pink-Rs-2690-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBKS-0069-Pink-Rs-2690-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Kurta In Pink.html">Boys Kurta In Pink</a></h3>
+                    <div class="price">RS3,000</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KGA163-Pink-Rs-1790-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KGA163-Pink-Rs-1790-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/T-Shirt For Girls In Pink.html">T-Shirt For Girls In Pink</a></h3>
+                    <div class="price discount"><span>RS4,700</span> RS2,400</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KGA0190-White-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KGA-0190-WHITE-01_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Girls T-Shirt In White.html">Girls T-Shirt In White</a></h3>
+                    <div class="price discount"><span>RS890</span> RS712</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KGA-0192-PLUM-RS-1290-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KGA-0192-PLUM-RS-1290-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Sweatshirt For Girls.html">Sweatshirt For Girls</a></h3>
+                    <div class="price discount"><span>RS3,256</span> RS1,500</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!-- 3rd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBB-0255-BLUE-Rs-1790-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBB-0255-BLUE-Rs-1790-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Casual Shirt In Blue.html">Boys Casual Shirt In Blue</a></h3>
+                    <div class="price">RS2,999</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBB-0258-PEACH-Rs-1790-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBB-0258-PEACH-Rs-1790-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Casual Shirt In Peach.html">Boys Casual Shirt In Peach</a></h3>
+                    <div class="price discount"><span>RS5,000</span> RS3,295</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KGA-0145-02_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KGA-0145-Green_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Girls T-Shirt In Green.html">Girls T-Shirt In Green</a></h3>
+                    <div class="price discount"><span>RS3,445</span>RS2,500</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="images Kids/KBB-0282-Sky-Blue-Rs-1690-01_1024x1024.jpg">
+                        <img class="pic-2" src="images Kids/KBB-0282-Sky-Blue-Rs-1690-02_1024x1024.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/Kids/Boys Casual Shirt In Sky Blue.html">Boys Casual Shirt In Sky Blue</a></h3>
+                    <div class="price discount"><span>RS4,000</span> Rs3,200</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!--footer-->
+
+	 <footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Our Store is a multiple brand store where you can buy quality stuff in resonable price.</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+923150205721</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>sahmeddayo@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+   <div class="topic">Quick Access</div>
+       <div><a href="Casual.html">Men Casual</a></div>
+       <div><a href="Formal.html">Men Formal</a></div>
+       <div><a href="Kids.html">Kids</a></div>
+       <div><a href="women formal.html">Women Foraml</a></div>
+       <div><a href="Women top col.html">Women Top Collection</a></div>
+		 <div><a href="contact us.html">Contact US</a></div>
+		<div><a href="our team.html">About Us</a></div>
+
+
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="home.html"><h2>Gracious Garments</h2></a>
+           
+         </div>
+       </form>
+     </div>
+   </div>
+ </footer>
+
+</body>
+</html>

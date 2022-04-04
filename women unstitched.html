@@ -1,0 +1,549 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap Testing</title>
+	<!-- Bootstrap Css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!-- Header Css-->
+<link type="text/css" rel="stylesheet" href="CUSTOM CSS/style.css"/>
+<!-- Jquery-->	
+<script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+<!-- Bootstrap Js-->	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+	
+	
+	<!--grid css-->
+	<link rel="stylesheet" href="CUSTOM CSS/grid.css"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--footer-->
+		    <link rel="stylesheet" href="CUSTOM CSS/footer css.css">
+
+
+</head>
+
+<body>
+	<!-- 2nd Nav Bar-->
+	<nav class="navbar navbar-expand-lg navbar-dark nav">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="home.html">GRACIOUS GARMENTS</a>
+    <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse menu"  id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            MEN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Casual.html">Casual</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Formal.html">Formal</a></li>
+			<li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="Kurtas.html">Kurats</a></li>  
+          </ul>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            WOMEN
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<li><a class="dropdown-item" href="Women top col.html">Women's(Top Collection)</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="women unstitched.html">Women's(Unstitched Collection)</a></li>
+			<li><hr class="dropdown-divider"></li>
+			<li><a class="dropdown-item" href="women formal.html">Women's(Formal Collection)</a></li>  
+          </ul>
+        		  <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="Kids.html">KIDS</a>
+        </li> 
+		 
+		  <li class="nav-item" >
+          <a class="nav-link" aria-current="page" href="our team.html">ABOUT US</a>
+        </li> 
+		  
+		<li class="nav-item">
+      		 <a class="nav-link" href="cart.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Cart">
+<i class="fa fa-shopping-cart"  font-size="30px" height="30px"></i></a>
+        </li>
+		<li class="nav-item">
+			<a class="nav-link" href="products-comparison-table/compare table.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Compare list" ><i class="fa fa-random"></i></a>
+        </li>
+		  
+        <li class="nav-item">
+          <a class="nav-link" href="wishlist.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Wish List"><i class="fa fa-heart" ></i></a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="sign up.html"
+			 data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sign up"><i class="fa fa-user-circle"></i></a>
+        </li>
+		  <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Search"><i class="fa fa-search"></i></a>
+        </li>
+      </ul>
+    </div>
+	  
+  </div>
+</nav>
+<!--sign-->
+	<!--breadcrums-->
+	<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Women's(Unstitched)</li>
+  </ol>
+</nav>
+				<!--banner img-->
+			<img class="col-12 img-fluid" src="images/plant2.jpg"/>
+
+
+		<div class="content">
+		<div class="contact-sec"><h3>Women's(Unstitched)</h3></div>
+    <div class="border"></div></div>
+
+<!--product card --->
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="productnew/pro un 1.html">
+                        <img class="pic-1" src="women images/un-1.webp">
+                        <img class="pic-2" src="women images/un-2.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 1.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 1.html">3PC Unstitched Embroidered Lawn ROSHANARA</a></h3>
+                    <div class="price">Rs11000</div>
+                </div>
+            </div>
+        </div>
+		
+		
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="productnew/pro un 2.html">
+                        <img class="pic-1" src="women images/un-5.jpg">
+                        <img class="pic-2" src="women images/un-4.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 2.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 2.html">3PC Unstitched Embroidered RANI</a></h3>
+                    <div class="price">Rs10500</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="productnew/pro un 3.html">
+                        <img class="pic-1" src="women images/un-8.webp">
+                        <img class="pic-2" src="women images/un-7.webp">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 3.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 3.html">3 PC Embroidered-Suit with Jacquard Dupatta</a></h3>
+                    <div class="price">Rs4550</div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="productnew/pro un 4.html">
+                        <img class="pic-1" src="women images/un-11.webp">
+                        <img class="pic-2" src="women images/un-10.webp">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 4.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 4.html">3 PC Embroidered-Suit with Yarn Dyed Dupatta</a></h3>
+                    <div class="price">Rs5600</div>
+                </div>
+            </div>
+        </div>
+		</div>
+	</div>
+<!-- 2nd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="productnew/pro un 5.html">
+                        <img class="pic-1" src="women images/un-14.webp">
+                        <img class="pic-2" src="women images/un-13.webp">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 5.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 5.html">3 PC Embroidered-Suit with Yarn Dyed Dupatta</a></h3>
+                    <div class="price">Rs5950</div>
+                </div>
+            </div>
+        </div>
+		
+		
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="productnew/pro un 6.html">
+                        <img class="pic-1" src="women images/un-16.jpg">
+                        <img class="pic-2" src="women images/un-18.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 6.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 6.html">Unstitched MBROIDERED - Blue Olive green</a></h3>
+                    <div class="price">Rs8000</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-20.jpg">
+                        <img class="pic-2" src="women images/un-19.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 7.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 7.html">Unstitched Linen Maroon and Beige</a></h3>
+                    <div class="price discount"><span>Rs10000</span>Rs9350</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-23.jpg">
+                        <img class="pic-2" src="women images/un-22.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 8.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 8.html">Unstitched Linen Brown</a></h3>
+                    <div class="price discount"><span>RS10000</span> Rs9750</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<!-- 3rd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-25.jpg">
+                        <img class="pic-2" src="women images/un-26.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 9.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 9.html">Unstitched Linen Black</a></h3>
+                    <div class="price">Rs9350</div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-29.jpg">
+                        <img class="pic-2" src="women images/un-28.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 10.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 10.html">Unstitched Sateen Pink</a></h3>
+                    <div class="price discount"><span>Rs12000</span> Rs10250</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-31.jpg">
+                        <img class="pic-2" src="women images/un-32.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 11.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 11.html">Unstitched Sateen Maroon</a></h3>
+                    <div class="price discount"><span>Rs13000</span> Rs10500</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-34.jpg">
+                        <img class="pic-2" src="women images/un-35.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 12.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 12.html">Unstitched Sateen Blue</a></h3>
+                    <div class="price discount"><span>RS9000</span> Rs7500</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+		<!-- 3rd Row-->
+	<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-36.jpg">
+                        <img class="pic-2" src="women images/un-38.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 13.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 13.html">Unstitched Fabrics/M.Prints</a></h3>
+                    <div class="price">Rs9350</div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-39.jpg">
+                        <img class="pic-2" src="women images/un-40.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 14.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 14.html">Unstitched Fabrics/M.Prints</a></h3>
+                    <div class="price discount"><span>Rs9000</span> Rs7550</div>
+                </div>
+            </div>
+        </div>
+           
+           
+           
+           <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-42.jpg">
+                        <img class="pic-2" src="women images/un-43.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 15.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 15.html">Unstitched Fabrics/M.Prints</a></h3>
+                    <div class="price discount"><span>Rs8000</span> Rs5500</div>
+                </div>
+            </div>
+        </div> 
+           
+            
+              <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+                <div class="product-image">
+                    <a href="#">
+                        <img class="pic-1" src="women images/un-45.jpg">
+                        <img class="pic-2" src="women images/un-46.jpg">
+                    </a>
+                    <span class="product-trend-label">Trend</span>
+                    <span class="product-discount-label">-20%</span>
+                    <ul class="social">
+                        <li><a href="productnew/pro un 16.html" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Wishlist"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="#" data-tip="Compare"><i class="fa fa-random"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+                <div class="product-content">
+                    <h3 class="title"><a href="productnew/pro un 16.html">Unstitched Fabrics/M.Prints</a></h3>
+                    <div class="price discount"><span>RS7500</span> Rs6000</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+
+	 <footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Our Store is a multiple brand store where you can buy quality stuff in resonable price.</p>
+       </div>
+       <div class="lower">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+923150205721</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>sahmeddayo@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     <div class="middle box">
+   <div class="topic">Quick Access</div>
+       <div><a href="Casual.html">Men Casual</a></div>
+       <div><a href="Formal.html">Men Formal</a></div>
+       <div><a href="Kids.html">Kids</a></div>
+       <div><a href="women formal.html">Women Foraml</a></div>
+       <div><a href="Women top col.html">Women Top Collection</a></div>
+		 <div><a href="contact us.html">Contact US</a></div>
+		<div><a href="our team.html">About Us</a></div>
+
+
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+         <div class="media-icons">
+           <a href="home.html"><h2>Gracious Garments</h2></a>
+           
+         </div>
+       </form>
+     </div>
+   </div>
+ </footer>
+
+</body>
+</html>
